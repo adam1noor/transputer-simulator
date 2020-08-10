@@ -51,7 +51,6 @@ class Expander:
 			else:
 				raise AssertionError(f'{child.label} should not be present at expansion stage')
 			self.expanded.add(newChild)
-		#We do +1 since currentInstruc is 0 indexed
 		assert(self.currentInstruc == self.initalNumInstructions), \
 		f'Mismatch in number of instructions, Instructions now: {self.currentInstruc}, Insructions before: {self.initalNumInstructions}'
 		
