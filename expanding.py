@@ -10,7 +10,7 @@ class OffsetPrefixError(Warning):
 warnings.filterwarnings('always',category = OffsetPrefixError)
 
 '''
-We have 2 requirements in this section
+We have 3 requirements in this section
 
 1) Expand Double length instructions
 2) Expand Operands longer than 4 bits
