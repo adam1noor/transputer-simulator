@@ -29,7 +29,7 @@ class Expander:
 		self.expanded = self.translateNode(trees)
 
 	def expand(self):
-		#We know that all instructions sequences rise to the top after we collapse
+		#We know that all instructions sequences rise to the top because of the structure of the parser
 		#So we can then check each those individually and check if they match:
 		#Single/Prefix
 		#Double
